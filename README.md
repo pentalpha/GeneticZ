@@ -1,5 +1,7 @@
 The goal of the Geneticz project is to produce a genetic samples analyzer capable of defining an appropriate genetic signature, draw a dendogram basead on the samples and apply the leave-one-out technic to evaluate if the sample groups (case/control) are stable.
 
+![Main Window](screenshot.png?raw=true "Screenshot")
+
 ----------------------------------------------
 
 It uses two input files, the "*.gSamples" file and the "*.groups" file.
