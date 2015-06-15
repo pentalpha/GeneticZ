@@ -1,0 +1,4 @@
+#! /bin/sh
+javac -classpath @sourceFiles.txt -d ./ -nowarn \
+&& find ./br -type f -name "*.class" > classFiles.txt \
+&& jar cvfm geneticz.jar manifest.txt @classFiles.txt
